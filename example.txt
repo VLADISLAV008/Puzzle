@@ -1,0 +1,8 @@
+7 7
+empty 2 3 2 empty 2 3
+8 ball empty ball 8 ball empty
+7 6 5 6 empty 6 5
+empty ball 4 ball 8 ball 4
+1 empty 3 2 1 2 3
+8 ball 4 ball 8 ball 4
+empty 6 5 6 7 6 empty
