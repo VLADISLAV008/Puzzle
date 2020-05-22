@@ -35,7 +35,7 @@ public class Vertex {
         final Random random = new Random();
         int index = random.nextInt(possibleNumbers.size());
         return possibleNumbers.get(index);
-    }
+}
 
     @Override
     public boolean equals(Object o) {
