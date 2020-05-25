@@ -34,7 +34,7 @@
 
     <center>
         <GridPane>
-            <FlowPane orientation="VERTICAL" prefHeight="838.0" prefWidth="300.0" style="-fx-background-color: #8c8c8c"
+            <FlowPane orientation="VERTICAL" prefHeight="1000.0" prefWidth="300.0" style="-fx-background-color: #8c8c8c"
                       GridPane.columnIndex="0" GridPane.rowIndex="0">
                 <GridPane hgap="20" prefHeight="461.0" prefWidth="300.0" vgap="50">
                     <padding>
@@ -125,7 +125,7 @@
                 </GridPane>
             </FlowPane>
 
-            <FlowPane orientation="VERTICAL" prefHeight="833.0" prefWidth="1200" GridPane.columnIndex="1"
+            <FlowPane orientation="VERTICAL" prefHeight="833.0" prefWidth="1600" GridPane.columnIndex="1"
                       GridPane.rowIndex="0" alignment="TOP_CENTER">
                 <GridPane>
                     <Label fx:id="labelPuzzle" prefHeight="40.0" text="%label.puzzle" GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.halignment="CENTER">

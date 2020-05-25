@@ -23,7 +23,7 @@ public class Main extends Application {
         ((Controller) fxmlLoader.getController()).textFieldProperties();
         ((Controller) fxmlLoader.getController()).setStage(primaryStage);
 
-        primaryStage.setScene(new Scene(root, 1100, 700));
+        primaryStage.setScene(new Scene(root, 1100, 900));
         primaryStage.setMaximized(true);
         primaryStage.show();
     }

@@ -199,17 +199,17 @@ public class Controller {
                         items.add(item);
                     }
                     ComboBox<String> node = new ComboBox<>(items);
-                    node.setPrefWidth(68);
-                    node.setPrefHeight(68);
-                    node.setCellFactory(new Callback<>() {
+                    node.setPrefWidth(75);
+                    node.setPrefHeight(75);
+                    node.setCellFactory(new Callback() {
                         @Override
-                        public ListCell<String> call(ListView<String> param) {
-                            return new ListCell<>() {
+                        public Object call(Object param) {
+                            return new ListCell() {
                                 @Override
-                                public void updateItem(String item, boolean empty) {
+                                public void updateItem(Object item, boolean empty) {
                                     super.updateItem(item, empty);
                                     if (item != null) {
-                                        setText(item);
+                                        setText((String) item);
                                         setFont(Font.font(this.getFont().getName(), 30.0)); //set your desired size
                                     } else {
                                         setText(null);
